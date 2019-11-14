@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>thought.png</file>
+        <file>800px_COLOURBOX2114101.png</file>
+        <file>1024px-Edit-cut.svg.png</file>
+        <file>bussign04.rw_preview.png</file>
+        <file>new.jpg.png</file>
+        <file>paste-special.png</file>
+        <file>interior-decor-fire-safety-signs-98155-lg.png</file>
+        <file>resize.png</file>
+        <file>835643_folder_512x512.png</file>
+        <file>i.jpeg</file>
+        <file>09c3c1eb6af10363d72fc68a9aee9393.png</file>
+        <file>462a93cfa9320fdf01f81f7f53609c38.png</file>
+        <file>document-save-all.png</file>
+        <file>img_428417.png</file>
+        <file>img_567786.png</file>
+        <file>j.jpeg</file>
+        <file>qt_logo_green_rgb_whitespace.png</file>
+        <file>1024px-Infobox_info_icon.svg.png</file>
+    </qresource>
+</RCC>
