@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1065</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1065</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action_7"/>
+    <addaction name="action_2"/>
+    <addaction name="fileSave"/>
+    <addaction name="fileSaveAs"/>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Редактирование</string>
+    </property>
+    <addaction name="copy"/>
+    <addaction name="cut"/>
+    <addaction name="ins"/>
+    <addaction name="otm"/>
+    <addaction name="povt"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Вид</string>
+    </property>
+    <addaction name="action_13"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>Помощь</string>
+    </property>
+    <addaction name="action_14"/>
+    <addaction name="action_Qt"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_7"/>
+   <addaction name="action_2"/>
+   <addaction name="fileSave"/>
+   <addaction name="fileSaveAs"/>
+   <addaction name="copy"/>
+   <addaction name="cut"/>
+   <addaction name="ins"/>
+   <addaction name="otm"/>
+   <addaction name="action_5"/>
+   <addaction name="action_6"/>
+   <addaction name="action_Qt"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_2">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/open.png</normaloff>:/new/img/img/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="fileSave">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/save.png</normaloff>:/new/img/img/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionCtrl_N">
+   <property name="text">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="fileSaveAs">
+   <property name="icon">
+    <iconset>
+     <normaloff>img/save_as.png</normaloff>img/save_as.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить как </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/del.png</normaloff>:/new/img/img/del.png</iconset>
+   </property>
+   <property name="text">
+    <string>Закрыть </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/exit.png</normaloff>:/new/img/img/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/new.png</normaloff>:/new/img/img/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>Создать </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="copy">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/copy.png</normaloff>:/new/img/img/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Копировать </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="cut">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/cut.png</normaloff>:/new/img/img/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Вырезать </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="ins">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/paste.png</normaloff>:/new/img/img/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>Вставить </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="otm">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/edit_undo.png</normaloff>:/new/img/img/edit_undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Отменить </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="povt">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/edit_redo.png</normaloff>:/new/img/img/edit_redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Повторить </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>Выбрать шрифт</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="action_Qt">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/img/img/info.png</normaloff>:/new/img/img/info.png</iconset>
+   </property>
+   <property name="text">
+    <string>О Qt</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
